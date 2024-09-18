@@ -6,6 +6,10 @@ Selamat datang di repositori untuk proyek "Redesign Wikipedia" sebagai bagian da
 
 Proyek ini adalah upaya untuk mendesain ulang tampilan dan pengalaman pengguna Wikipedia dengan menggunakan HTML, CSS, dan JavaScript. Tujuannya adalah untuk menciptakan antarmuka yang lebih modern dan responsif, sambil mempertahankan fungsionalitas inti yang membuat Wikipedia sangat berguna.
 
+## 🌐 Demo
+
+Lihat demo proyek ini secara langsung di [Redesign Wikipedia Demo](https://redesign-wikipedia.gum8597.my.id/).
+
 ## ✨ Fitur Utama
 
 - **Header dan Navigasi**: Desain ulang header dengan menu navigasi yang sticky dan responsif.
@@ -53,6 +57,6 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ## 📬 Kontak
 
-Jika Anda memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi saya di [dev@labibweb.my.id](mailto:dev@labibweb.my.id).
+Jika Anda memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi saya di [email@example.com](mailto:email@example.com).
 
 Terima kasih telah mengunjungi repositori ini dan semoga Anda menikmati bekerja dengan proyek ini! 🚀
