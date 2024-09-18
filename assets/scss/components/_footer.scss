@@ -1,0 +1,106 @@
+.mw-footer {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px 0;
+    font-size: 0.875rem;
+    color: #6c757d;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+
+    a {
+        color: #569fdc;
+        font-weight: 550;
+    }
+
+    .footer-info {
+        .footer-info-copyright {
+            line-height: 1.8;
+        }
+    }
+
+    .mw-footer-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    // LINK
+    .footer-links {
+        margin-top: 20px;
+    
+        ul {
+            display: flex;
+            flex-wrap: inherit;
+            align-items: center;
+            justify-content: space-between;
+    
+            a {
+                font-weight: 500;
+                color: #696969;
+                font-size: 12px;
+                margin-right: 17px;
+
+                &:hover {
+                    color: #569fdc;
+                }
+            }
+        }
+    }
+
+    // MID
+    #footer-info {
+        line-height: 1.4;
+        color: #696969;
+        font-weight: 400;
+        
+        #footer-info-lastmod {
+            margin-bottom: 10px;
+        }
+    }
+
+
+    // ICONS
+    .footer-icons {
+        flex: 1 1 20%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        #footer-icons {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+    
+        #footer-icons img {
+            width: 88px;
+            border: 1px solid #dee2e6;
+            padding: 10px 15px;
+            border-radius: 10px;
+            height: auto;
+        }
+    }
+    
+    #footer-info,
+    #footer-places {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.mw-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #dee2e6;
+}

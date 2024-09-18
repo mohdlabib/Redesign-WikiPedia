@@ -1,0 +1,123 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    .dropdown-menu {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        display: none;
+        float: left;
+        min-width: 10rem;
+        padding: 0.5rem 0 0.7rem 0;
+        margin: 0.125rem 0 0;
+        font-size: 1rem;
+        text-align: left;
+        background: #ffffff;
+        border-radius: 9px;
+        z-index: 99999;
+        box-shadow: 0 0.3rem 0.95rem rgba(0, 0, 0, 0.053) !important;
+    }
+
+    .dropdown-item {
+        display: block;
+        cursor: pointer;
+        padding: 0.50rem 1rem;
+        white-space: nowrap;
+        color: rgb(85, 85, 85);
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .dropdown-icon {
+        transition: transform 0.3s ease;
+        margin-bottom: -2px;
+        margin-left: 2px;
+    }
+
+    .dropdown-icon.open {
+        transform: rotate(180deg);
+    }
+
+}
+
+.d-block {
+    display: block !important;
+}
+
+@media (min-width: 768px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideOut {
+    0% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideOut {
+    -webkit-animation-name: slideOut;
+    animation-name: slideOut;
+}

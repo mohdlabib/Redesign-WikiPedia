@@ -1,0 +1,187 @@
+main {
+    font-family: "Montserrat", sans-serif;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .sidebar {
+        flex: 1;
+        padding: 20px;
+        border-radius: 8px;
+
+        h4 {
+            color: #575757;
+            font-size: 17px;
+        }
+
+        .star {
+            color: #aec399;
+            font-weight: 600;
+            font-size: 12px;
+
+            span {
+                margin-right: 10px;
+            }
+        }
+
+        ul {
+            color: #5f5f5f;
+            list-style: none;
+            padding-left: 0;
+            font-size: 15px;
+
+            span {
+                font-weight: 500;
+                color: #bcbcbc;
+                margin-right: 10px;
+            }
+
+            ul {
+                margin-left: 15px;
+            }
+        }
+
+        li {
+            padding: 5px 0;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .collapses {
+            .dropdown-m {
+                display: none;
+            }
+        }
+    }
+
+    .main-content {
+        flex: 2;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: justify;
+
+        p {
+            line-height: 1.8;
+        }
+
+        .text-top {
+            color: #868686;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        a {
+            color: #569fdc;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        article p {
+            font-size: 16px;
+            font-weight: 500;
+            color: #6b6b6b;
+        }
+    }
+
+    .image-info {
+        flex: 1;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+
+        .flag {
+            border-radius: 3px;
+            width: 20px;
+            margin-bottom: -2px;
+            margin-right: 5px;
+            height: 15px;
+        }
+
+        .image-poster {
+            width: 225px;
+            height: 310px;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Conor_McGregor%2C_UFC_189_World_Tour_London_%282%29.jpg/330px-Conor_McGregor%2C_UFC_189_World_Tour_London_%282%29.jpg');
+            margin-bottom: 25px;
+            margin-left: 10px;
+            border-radius: 8px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+        }
+
+        .info {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: left;
+            border-collapse: separate;
+            border-spacing: 0 5px;
+        }
+
+        .info td {
+            padding: 15px 11px;
+            font-size: 13.5px;
+            color: #616161;
+            font-weight: 600;
+        }
+
+        .info td:first-child {
+            color: #828282;
+            font-weight: 550;
+            width: 30%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        td:last-child {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .info tr:nth-child(odd) {
+            background-color: #f8f8f8;
+            border-radius: 10px;
+        }
+
+        .info tr:last-child td {
+            border-bottom: none;
+        }
+
+        .btn-group .btn {
+            font-size: 12px;
+            margin: 2px 2px;
+            padding: 5px 10px;
+            border-radius: 12px;
+            border: 2px solid #559edc;
+            color: #559edc;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+    }
+
+    // references
+    .references {
+        li {
+            margin: 10px 0;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+@media only screen and (max-width: 600px) {
+
+    main {
+        .content-wrapper {
+            margin-left: -50px;
+            margin-right: -50px;
+            display: flex !important;
+            flex-direction: column;
+
+            .main-content {
+                padding: 10px;
+                order: 2 !important;
+
+                p {
+                    line-height: 1.6;
+                }
+
+                .text-top {
+                    color: #868686;
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+
+                h1 {
+                    font-size: 24px;
+                }
+
+                article p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #6b6b6b;
+                }
+            }
+
+            .sidebar {
+                h4 {
+                    display: none;
+                }
+
+                .collapses {
+                    .collapse {
+                        background-color: #fcfcfc;
+                        padding: 10px 15px;
+                        max-height: 0;
+                        display: none;
+                        overflow: hidden;
+                        transition: max-height 0.5s ease;
+                        margin-bottom: -10px;
+                    }
+
+                    .collapse.show {
+                        display: block;
+                        max-height: 500px;
+                    }
+
+                    .icon i {
+                        transition: transform 0.5s ease;
+                    }
+
+                    .rotate {
+                        transform: rotate(90deg);
+                    }
+
+                    .dropdown-m {
+                        display: block;
+                        font-weight: 700;
+                        color: #575757;
+                        font-size: 17px;
+                    }
+
+                    .d-flex {
+                        display: flex;
+                        flex-wrap: inherit;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+            }
+
+            .image-info {
+                margin-top: -30px;
+                position: relative;
+                padding: 10px;
+                text-align: center;
+                order: 1;
+
+                .image-poster {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .info {
+                    margin: 10px;
+                    width: 90%;
+                }
+            }
+
+            // SLIDER
+            .slider {
+                .wrap {
+                    margin: 0 auto;
+                    padding: 0;
+                    width: 95%;
+                }
+
+                .swipe {
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 10px;
+                    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+                }
+
+                .btn {
+                    top: 125px;
+                }
+
+                #pagenavi {
+                    overflow-x: auto !important;
+                    display: flex;
+                    flex-wrap: inherit;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    a {
+                        margin: 5px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .my-5 {
+        margin-top: 50px !important;
+    }
+}

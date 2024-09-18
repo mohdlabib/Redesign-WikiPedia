@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Viga&display=swap');
+
+@import './components/navbar';
+@import './components/main';
+@import './components/slider';
+@import './components/scrollbar';
+@import './components/dropdown';
+@import './components/footer';
+
+// mobile
+@import './mobile/navbar';
+@import './mobile/main';
+@import './mobile/footer';
+
+body {
+    background-color: #fefefe;
+    overflow-x: hidden;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.my-5 {
+    margin-top: 6.5rem;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.text-center {
+    text-align: center !important;
+}
