@@ -57,6 +57,6 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ## 📬 Kontak
 
-Jika Anda memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi saya di [email@example.com](mailto:email@example.com).
+Jika Anda memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi saya di [dev@labibweb.my.id](mailto:dev@labibweb.my.id).
 
 Terima kasih telah mengunjungi repositori ini dan semoga Anda menikmati bekerja dengan proyek ini! 🚀
