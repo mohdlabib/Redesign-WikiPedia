@@ -24,22 +24,14 @@ const navbarStickyAnimate = () => {
         // close dropdowns
         closeDropdowns();
 
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 600) {
-                asideSticky.classList.add('hide');
-                asideSticky.classList.remove('show');
-            }
-        })
-        
+        asideSticky.classList.add('hide');
+        asideSticky.classList.remove('show');    
         header.classList.add('hide');
         header.classList.remove('show');
     } else {
         
-        window.addEventListener('resize', function() {
-            asideSticky.classList.add('show');
-            asideSticky.classList.remove('hide');
-        })
-        
+        asideSticky.classList.add('show');
+        asideSticky.classList.remove('hide');
         header.classList.add('show');
         header.classList.remove('hide');
     }
