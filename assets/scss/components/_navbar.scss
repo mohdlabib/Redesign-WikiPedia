@@ -21,11 +21,23 @@ header {
             color: #333;
             text-decoration: none;
             white-space: nowrap;
+            display: flex;
+            flex-wrap: inherit;
+            align-items: center;
+            justify-content: space-between;
     
             img {
                 position: relative;
                 top: 8px;
                 width: 55px;
+            }
+
+            .title-brand {
+                display: block;
+                font-family: "Pacifico", cursive;
+                margin: 0;
+                margin-left: -4px;
+                margin-bottom: -22px;
             }
         }
     
