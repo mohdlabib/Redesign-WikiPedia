@@ -8,7 +8,7 @@ Proyek ini adalah upaya untuk mendesain ulang tampilan dan pengalaman pengguna W
 
 ## 🌐 Demo
 
-Lihat demo proyek ini secara langsung di [Redesign Wikipedia Demo](https://redesign-wikipedia.gum8597.my.id/).
+Lihat demo proyek ini secara langsung di [Redesign Wikipedia Demo](https://redesign-wiki-pedia.vercel.app/).
 
 ## ✨ Fitur Utama
 
