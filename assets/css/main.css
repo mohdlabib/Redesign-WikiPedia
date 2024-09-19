@@ -644,7 +644,7 @@ main .references li {
   .mobile-nav {
     position: fixed;
     bottom: 30px;
-    width: 55%;
+    width: 50%;
     left: 50%;
     border-radius: 10px;
     transform: translateX(-50%);
@@ -664,7 +664,7 @@ main .references li {
   }
   .mobile-nav .card .col a {
     color: white;
-    background-color: #232121;
+    background-color: #333232;
     border-radius: 8px;
     padding: 8px 10px;
     font-size: 20px;
@@ -685,6 +685,9 @@ main .references li {
   }
   .mobile-menu.active {
     left: 0;
+  }
+  .mobile-menu #closeNav {
+    color: #505050;
   }
   .mobile-menu .navbar-form {
     position: relative;
@@ -794,6 +797,8 @@ main .references li {
   }
   main .content-wrapper .main-content {
     padding: 10px;
+    position: relative;
+    margin-top: -20px;
     order: 2 !important;
   }
   main .content-wrapper .main-content p {
@@ -860,6 +865,12 @@ main .references li {
   main .content-wrapper .image-info .info {
     margin: 10px;
     width: 90%;
+  }
+  main .content-wrapper .image-info.show {
+    top: 0;
+  }
+  main .content-wrapper .image-info.hide {
+    top: 0;
   }
   main .content-wrapper .slider .wrap {
     margin: 0 auto;

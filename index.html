@@ -46,24 +46,80 @@
         </nav>
     </header>
 
-    <!-- mobile Nav -->
-    <section class="mobile-nav">
-        <div class="card">
-            <div class="row text-center">
-                <div class="col">
-                    <a href="#" id="sideNavToggleGl"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </div>
-                <div class="col">
-                    <a href="#" class="active"><i class="fa-solid fa-house"></i></a>
-                </div>
-                <div class="col">
-                    <a href="#" id="sideNavToggle"><i class="fa-solid fa-bars"></i></a>
+    <main class="container my-5">
+
+        <!-- mobile Nav -->
+        <section class="mobile-nav">
+            <div class="card">
+                <div class="row text-center">
+                    <div class="col">
+                        <a href="#" id="sideNavToggleGl"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" class="active"><i class="fa-solid fa-house"></i></a>
+                    </div>
+                    <div class="col">
+                        <a href="#" id="sideNavToggle"><i class="fa-solid fa-bars"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <main class="container my-5">
+        <!-- MOBILE SIDEMENU -->
+        <section id="sideNav" class="mobile-menu">
+            <div class="navbar-form">
+                <div class="form">
+                    <input type="text" id="serac" class="form-search" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+
+                <div class="close-icon">
+                    <a href="#" class="btn" id="closeNav"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+            </div>
+
+            <div class="content">
+                <ul class="list-group">
+                    <li>
+                        <a href="#" class="list-group-item">
+                            <div class="d-flex">
+                                <div class="link">Home</div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="list-group-item">
+                            <div class="d-flex">
+                                <div class="link">Community Portal</div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="collapses">
+                        <a href="#" class="list-group-item dropdown-m" id="toggle-collapse">
+                            <div class="d-flex">
+                                <div class="link">Featured Articles</div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right" id="icon"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu-m collapse">
+                            <a class="dropdown-item" href="#">History of Wikipedia</a>
+                            <a class="dropdown-item" href="#">Featured Editors</a>
+                            <a class="dropdown-item" href="#">Popular Topics</a>
+                            <a class="dropdown-item" href="#">WikiProjects</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
         <div class="content-wrapper">
             <!-- Sidebar -->
             <aside class="sidebar">
@@ -295,62 +351,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- MOBILE SIDEMENU -->
-    <section id="sideNav" class="mobile-menu">
-        <div class="navbar-form">
-            <div class="form">
-                <input type="text" id="serac" class="form-search" placeholder="Search...">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </div>
-
-            <div class="close-icon">
-                <a href="#" class="btn" id="closeNav"><i class="fa-solid fa-xmark"></i></a>
-            </div>
-        </div>
-
-        <div class="content">
-            <ul class="list-group">
-                <li>
-                    <a href="#" class="list-group-item">
-                        <div class="d-flex">
-                            <div class="link">Home</div>
-                            <div class="icon">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="list-group-item">
-                        <div class="d-flex">
-                            <div class="link">Community Portal</div>
-                            <div class="icon">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="collapses">
-                    <a href="#" class="list-group-item dropdown-m" id="toggle-collapse">
-                        <div class="d-flex">
-                            <div class="link">Featured Articles</div>
-                            <div class="icon">
-                                <i class="fa-solid fa-chevron-right" id="icon"></i>
-                            </div>
-                        </div>
-                    </a>
-                    <div class="dropdown-menu-m collapse">
-                        <a class="dropdown-item" href="#">History of Wikipedia</a>
-                        <a class="dropdown-item" href="#">Featured Editors</a>
-                        <a class="dropdown-item" href="#">Popular Topics</a>
-                        <a class="dropdown-item" href="#">WikiProjects</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-    </section>
 
     <!-- JS -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

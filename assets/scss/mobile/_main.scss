@@ -9,6 +9,8 @@
 
             .main-content {
                 padding: 10px;
+                position: relative;
+                margin-top: -20px;
                 order: 2 !important;
 
                 p {
@@ -93,6 +95,14 @@
                     margin: 10px;
                     width: 90%;
                 }
+            }
+
+            .image-info.show {
+                top: 0;
+            }
+            
+            .image-info.hide {
+                top: 0;
             }
 
             // SLIDER
